@@ -1,3 +1,76 @@
-cd <path> Changes the working directory to <path>
-ls <path> Lists the directory content of <path>
-...
+Unix notes
+
+man [program]         opens manual page for given program
+
+[command] --help      often displays help information
+
+info [program]        shows program information
+
+ls                    list files
+    -a                show all files
+    -l                long format
+
+mv [file1] [file2]    move or rename a file
+
+cp [file1] [file2]    copy a file
+
+cat [file]            show file contents
+
+rm [file]             remove a file
+    -r                recursive
+    -f                force
+
+rmdir [directory]     remove directory
+
+chmod [options] [file]  change r/w/x permissions of file
+
+chgrp                 change group permissions
+
+chown                 change owner
+
+mkdir [dirname]       create directory
+
+cd [dirname]          change directory to given pathname
+    ..                go up one level
+    /                 go to root
+    ~                 home directory
+
+pwd                   print working directory
+
+echo                  output text to screen or file
+
+eval                  construct command by concatenating arguments
+
+grep                  search file
+
+head [file]           show first part of file
+
+tail [file]           show last part of file
+
+less [file]           open file in less program. q to quit
+
+emacs [file]          open/edit file in emacs
+
+date                  display date
+
+time                  display time
+
+cal                   display calendar
+
+diff [file1] [file2]  show differences between files
+
+wc [file]             show lines worda and characters of a given file
+
+passwd                change your password
+
+du [options] [filename] show disk usage of given file
+    -s                show just the total
+
+printenv              show value of shell variables
+
+ps                    show current processes
+
+top                   show all system processes
+
+kill                  terminate or signal a process
+
